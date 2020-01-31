@@ -26,7 +26,7 @@ export default {
       //const name = this.$store.state.user
       //alert(name.name)
       axios
-        .get("http://localhost:8082/api/login")
+        .get("http://localhost:8082/api/users")
 
         .then(resp => {
           console.log(resp);
